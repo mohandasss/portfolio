@@ -1,0 +1,35 @@
+.skillItem {
+      position: relative; /* Required for positioning the tooltip */
+      display: inline-block; /* Ensure items are inline */
+    }
+    
+    .tooltip {
+      position: relative;
+      display: inline-block;
+    }
+    
+    .tooltip .tooltiptext {
+      visibility: hidden;
+      width: 70px; /* Adjust width as needed */
+      background-color: #333; /* Dark background for the tooltip */
+      color: #fff; /* White text color */
+      text-align: center;
+      border-radius: 5px;
+      padding: 5px 0; /* Adjust padding */
+      position: absolute;
+      z-index: 1;
+      bottom: 125%; /* Position above the icon */
+      left: 50%; /* Center horizontally */
+      transform: translateX(-50%); /* Center horizontally */
+      display: flex;
+      align-items: center; /* Vertically center the text */
+      justify-content: center; /* Horizontally center the text */
+      opacity: 0;
+      transition: opacity 0.3s;
+    }
+    
+    .tooltip:hover .tooltiptext {
+      visibility: visible;
+      opacity: 1;
+    }
+    

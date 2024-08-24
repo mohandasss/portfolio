@@ -1,0 +1,72 @@
+/* Default light theme styles */
+:root {
+  --text-color: #000; /* Light theme text color */
+}
+
+[data-theme="dark"] {
+  --text-color: #fff; /* Dark theme text color */
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+
+  span {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+
+  img {
+    width: 20px;
+  }
+}
+
+.skillList {
+  display: flex;
+  justify-content: space-evenly;
+  align-self: center;
+  flex-wrap: wrap;
+  row-gap: 40px;
+  max-width: 26ch;
+}
+
+hr {
+  width: 100px;
+  height: 1px;
+  border: none;
+  background-color: var(--text-color);
+  margin: 30px auto;
+}
+
+@media (min-width: 800px) {
+  .skillList {
+    max-width: fit-content;
+    gap: 30px;
+
+    p {
+      font-size: 20px;
+    }
+  }
+
+  hr {
+    width: 300px;
+  }
+}
+
+/* Add more spacing for skill icons on smaller devices */
+@media (max-width: 800px) {
+  .skillList {
+    gap: 20px; /* Adjust the gap between icons as needed */
+    padding: 0 20px; /* Add padding to the left and right */
+  }
+
+  .skillItem {
+    margin: 0 10px; /* Adjust margin if necessary */
+  }
+}
+
+.tooltiptext {
+  font-family: 'Josefin Sans', sans-serif; /* Apply Josefin Sans font */
+}
