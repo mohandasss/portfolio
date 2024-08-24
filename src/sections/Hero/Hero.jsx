@@ -6,7 +6,7 @@ import styles from './HeroStyles.module.css';
 import heroImg from '../../assets/mydp.png';
 import sun from '../../assets/sun.svg';
 import moon from '../../assets/moon.svg';
-import CV from '../../assets/cv.pdf';
+import CV from '../../assets/CV_updated.pdf';
 
 function Hero() {
   const { theme, toggleTheme } = useTheme();
