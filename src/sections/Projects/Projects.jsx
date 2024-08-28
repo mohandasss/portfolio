@@ -18,7 +18,7 @@ function Projects() {
         />
         <ProjectCard
           src={movieapp}
-          link="https://github.com/mohandasss/moviesapp"
+          link="https://filmfoliooo.netlify.app/"
           h3="Film Folio"
           p="Movie Insights Platform"
         />
