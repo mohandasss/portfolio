@@ -4,6 +4,7 @@ import freshBurger from '../../assets/conact.png';
 import hipsster from '../../assets/quizzy.png';
 import movieapp from '../../assets/folio.png';
 import ProjectCard from '../../common/ProjectCard';
+import Devshare from "../../assets/DevCaster.png"
 
 function Projects() {
   return (
@@ -22,6 +23,12 @@ function Projects() {
           h3="Film Folio"
           p="Movie Insights Platform"
         />
+         <ProjectCard
+        src={Devshare}
+        link="https://github.com/mohandasss/Realtime-Code-Sharing.git"
+        h3="Dev Caster"
+        p="Realtime Code Sharing Tool"
+      />
         <ProjectCard
           src={freshBurger}
           link="https://github.com/mohandasss/Contact_App"

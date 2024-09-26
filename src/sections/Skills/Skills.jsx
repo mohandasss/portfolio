@@ -14,6 +14,7 @@ import {
   SiHibernate,
   SiSpringboot,
   SiTailwindcss,
+  SiExpress
 } from "react-icons/si";
 import SkillList from "../../common/SkillList";
 
@@ -49,7 +50,8 @@ function Skills() {
           icon={<SiSpringboot size={50} color="#6DB33F" />}
           skill="Spring Boot"
         />
-        <SkillList icon={<FaNodeJs size={50} color="#339933" />} skill="Node" />̥
+        <SkillList icon={<FaNodeJs size={50} color="#339933" />} skill="Node" />
+        <SkillList icon={<SiExpress size={50} color="#68A063" />} skill="Express" /> {/* Added Express */}
       </div>
 
       <hr />
