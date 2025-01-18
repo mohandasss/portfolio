@@ -5,12 +5,19 @@ import hipsster from '../../assets/quizzy.png';
 import movieapp from '../../assets/folio.png';
 import ProjectCard from '../../common/ProjectCard';
 import Devshare from "../../assets/DevCaster.png"
+import shop from "../../assets/shop.jpeg"
 
 function Projects() {
   return (
     <section id="projects" className={styles.container}>
       <h1 className="sectionTitle">Projects</h1>
       <div className={styles.projectsContainer}>
+      <ProjectCard
+          src={shop}
+          link="https://github.com/mohandasss/shopkaro"
+          h3="Shopkaro"
+          p="shopping abb gharse"
+        />
         <ProjectCard
           src={viberr}
           link="https://github.com/mohandasss/Hotel-booking-system/tree/main/frontend"
