@@ -6,8 +6,6 @@ import movieapp from "../../assets/folio.png";
 import ProjectCard from "../../common/ProjectCard";
 import Devshare from "../../assets/DevCaster.png";
 import shop from "../../assets/shop.jpeg";
-import camera from "../../assets/camera.webp";
-import lens from "../../assets/cam1.png";
 import lens2 from "../../assets/cam2.png";
 
 
